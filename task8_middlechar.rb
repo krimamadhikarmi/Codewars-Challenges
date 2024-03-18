@@ -1,6 +1,9 @@
-def getMiddle(name){
+def getMiddle(name)
    name_len=name.size
-   if
-
-}
-puts getMiddle("Ram")
+   if name_len%2==0
+    return name[(name_len/2)-1,name_len/2]
+   else
+    return name[name_len/2]
+   end
+end
+puts getMiddle("Krima")
